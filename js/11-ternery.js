@@ -45,3 +45,9 @@ console.log(c);
 
 const d = 1 ? 2 : 3;
 console.log(d);
+
+
+// true -> [1], folse -> [2]
+const masyvas = [];
+
+if mas = true ? [1] : [2];
