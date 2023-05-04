@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "funkcijos": "nodemon ./js/04-funkcijos.js",
+    "function": "nodemon ./js/04-function.js",
     "array": "nodemon ./js/05-array.js",
     "ternery": "nodemon ./js/11-ternery.js",
     "if": "nodemon ./js/10-if.js",
