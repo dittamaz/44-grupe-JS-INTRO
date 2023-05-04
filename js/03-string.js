@@ -99,3 +99,30 @@ const pavarde = 'Jonaitis';
 // Hi I ma Vardenis Pavardenis and I like you!
 const personHi2 = `Hi, I am ${vardas} ${pavarde} and I like you!`;
 console.log(personHi2);
+
+console.log('--------------------------');
+
+/*
+"Darzoviu salotos"
+Sudetis:
+- kiek1 gr. ingr1;
+- kiek2 gr. ingr2;
+- kiek3 saukstai ingr3.
+Eiga:
+Darzoves supjaustyti kubeliais. Imaisyti ingr3.
+*/
+
+const ingr1 = 'agurku';
+const ingr2 = 'pomidoru';
+const ingr3 = 'grietines';
+const kiek1 = '200';
+const kiek2 = '150';
+const kiek3 = '3';
+
+const salotos = `"Darzoviu salotos"\r\n Salotos:\r\n- ${kiek1} gr. ${ingr2};
+- ${kiek2} gr. ${ingr2};\r\n- ${kiek3} saukstai ${ingr3}.
+Eiga:
+Darzoves supjaustyti kubeliais. Imaisyti ${ingr3}.`
+
+
+console.log(salotos);
