@@ -148,3 +148,19 @@ liek %= 5;
 console.log(liek);
 
 */
+
+ 
+
+ const maryte = 98;
+ const antanas = 15;
+ const bendrasAmzius = maryte + antanas;
+ console.log(maryte, `+`, antanas, `=`, bendrasAmzius);
+
+const b = 10;
+console.log(b);
+
+const agurkai = 5;
+const pomidorai = 11;
+const darzoviuAsorti = pomidorai + agurkai;
+console.log(pomidorai, `+`, agurkai, `=`, darzoviuAsorti);
+
