@@ -164,3 +164,26 @@ const pomidorai = 11;
 const darzoviuAsorti = pomidorai + agurkai;
 console.log(pomidorai, `+`, agurkai, `=`, darzoviuAsorti);
 
+console.log(1+2+3+4+5+6+7+8+9);
+console.log(5**3);
+
+// reiksmes 1, 2, 3, 4, 5.
+
+let reiksme = 0;
+console.log(reiksme);
+
+reiksme += 1;
+console.log(reiksme);
+
+reiksme = reiksme - 2;
+console.log(reiksme);
+
+reiksme += 3;
+console.log(reiksme);
+
+reiksme -= 4;
+console.log(reiksme);
+
+reiksme += 5;
+console.log(reiksme);
+
