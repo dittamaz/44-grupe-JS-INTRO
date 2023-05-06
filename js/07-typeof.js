@@ -13,6 +13,9 @@ console.log(b);
 const c = typeof true;
 console.log(c);
 
+function sum(a, b) {
+   return a + b;
+}
 const d = typeof sum;
 console.log(d);
 
@@ -26,7 +29,7 @@ const g = typeof undefined;
 console.log(g);
 
 function example() {
-   return example;
+   return undefined;
 }
 
 console.log('>>>', typeof example());
