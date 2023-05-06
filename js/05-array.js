@@ -5,6 +5,7 @@ ARRAY - arėjus (slang), sąrašas, listas (slang),
 matrica, masyvas (tikslus vertinys);
 
 Masyvas prasideda index = 0;
+array.length - masyve esanciu reiksmiu kiekis;
 
 */
 
