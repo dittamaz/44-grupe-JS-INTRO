@@ -113,4 +113,34 @@ console.log(studentas.movies[0].title);
 console.log(studentas.movies[0].actors);
 console.log(studentas.movies[0].actors[1]);
 
+console.clear();
 
+
+ const skaiciai = [10, 5 , 8];
+ console.log(skaiciai);
+ console.log(skaiciai[0]);
+
+ skaiciai[0] = 1000;
+ console.log(skaiciai);
+ console.log(skaiciai[0]);
+
+ const auto = {
+    marke: 'Audi',
+};
+ console.log(auto);
+
+ auto.marke = 'Audine';
+ console.log(auto);
+
+ auto.kaina = 1000;
+ console.log(auto);
+ auto.color = 'red';
+ console.log(auto);
+
+ delete auto.color;
+ console.log(auto);
+
+auto.savininkai = [];
+console.log(auto);
+
+//apie pridejimus i masyvus,kitam faile;
