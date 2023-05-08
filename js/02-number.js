@@ -14,10 +14,10 @@ mistiniai:
 
 MATEMETINIAI VEIKSMAI
 aritmetiniai operatoriai:
-+; -, /, *, ** (laipsnis), % (liekana)
+    +; -, /, *, ** (laipsnis), % (liekana)
 
 priskirimo operatoriai:
-=, +=; -=; /=, *=; **=; %=;
+    =, +=; -=; /=, *=; **=; %=;
 
 KINTAMUJU INICIJAVIMO BUDAI:
 - const (default)
@@ -187,3 +187,60 @@ console.log(reiksme);
 reiksme += 5;
 console.log(reiksme);
 
+//console.clear();
+
+//let i = 0;
+
+//i = i + 1;
+
+//letm = 0;
+//console.log(m);
+
+//m = m - 1;
+//console.log(i);
+
+console.clear();
+
+let i = 0;
+console.log(i);
+
+i = i + 1;
+console.log(i);
+
+i+= 1;
+console.log(i);
+
+i++;
+console.log(i);
+
+++i;
+console.log(i);
+
+let m = 0;
+console.log(m);
+
+m = m - 1;
+console.log(m);
+
+m -= 1;
+console.log(m);
+
+m-- ;
+console.log(m);
+
+--m ;
+console.log(m);
+
+console.clear()
+
+let n = 0;
+
+console.log(n);
+
+console.log('----------');
+console.log(n++);
+console.log(n);
+
+console.log('----------');
+console.log(++n);
+console.log(n);

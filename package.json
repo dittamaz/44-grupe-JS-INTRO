@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "for": "nodemon ./js/12-for.js",
     "array-methods": "nodemon ./js/09-array-methods.js",
     "function": "nodemon ./js/04-function.js",
     "array": "nodemon ./js/05-array.js",
