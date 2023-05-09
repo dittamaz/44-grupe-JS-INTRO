@@ -91,5 +91,29 @@ for (let i = -5; i < 7; i++) {
 
 for (let i = 0; i < 2; i+=0.1) {
     console.log(i);
-}
+};
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log('--------------------------------------');
+
+const text = "Labas!";
+
+for (let i = 0; i < text.length ; i++) {
+    console.log(text[i]);
+};
+
+for (let i = text.length - 1; i >= 0; i--) {
+    console.log(text[i]);
+};

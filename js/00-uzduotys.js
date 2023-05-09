@@ -1,14 +1,5 @@
 console.clear();
 
-const skaiciai = 0;
-let suma = 0;
-
-for (let i = 0; i <= 0; i++) {
-    suma = suma + i;
-};
-console.log(suma);
-
-console.log('------');
 
 const skaiciai1 = 4;
 let suma1 = 0;
@@ -30,13 +21,42 @@ console.log(suma2);
 
 console.log('------');
 
-const skaiciai3 = 815;
-let suma3 = 0;
+function rangeSum(from, to) {
+    let sum = 0;
 
-for (let i = 574; i < 816; i++) {
-    suma3 = suma3 + i;
+    if ( from < to){
+        for(let i = from; i <= to; i++) {
+            sum +=i;
+        }
+    }   
+
+    if (from > to) {
+        for( let i = to; i >= from; i ++) {
+            sum +=1;
+        }
+    }
+
+    if ( from === to) {
+        sum  += to;
+    }
+    return sum;
 };
-console.log(suma3);
 
-console.log('------');
+console.log(rangeSum(0, 0));
+console.log(rangeSum(0, 4));
+console.log(rangeSum(0, 100));
+console.log(rangeSum(574, 815));
+console.log(rangeSum(-50, 50));
+console.log(rangeSum(-70, 30));
 
+console.log('------------');
+
+
+
+
+
+const text = "abcdef";
+
+for (let i = text.length - 1; i >= 0; i--) {
+    console.log(text[i]);
+}
