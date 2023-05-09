@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "uzd": "nodemon ./uzd/1-empty.js",
     "uzduotys": "nodemon ./js/00-uzduotys.js",
     "for": "nodemon ./js/12-for.js",
     "array-methods": "nodemon ./js/09-array-methods.js",
