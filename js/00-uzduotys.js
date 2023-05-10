@@ -1,5 +1,52 @@
 console.clear();
 
+console.log('--kintamuju iniciavimas---');
+
+const a = 707;
+console.log(a);
+
+let b = 808;
+console.log(b);
+
+const c = 4.44;
+console.log(c);
+
+console.log('-----');
+
+const myName = 'Ditta';
+console.log(myName);
+
+const useName = "Mazeikiene";
+console.log(useName);
+
+const word = "\'Studente\'";
+console.log(word);
+
+console.log('-----');
+
+const number1 = [11, 12, 13, 14, 15];
+console.log(number1);
+
+console.log('-----');
+
+const word1 = ['saule', 'menulis', 'merkurijus', 'venera', 'marsas'];
+console.log(word1);
+
+console.log('--Veiksmai su kintamaisiais--');
+
+const number2 = [11, 11, 11, 11, 11];
+console.log(number2);
+
+const word2 = 'agurkai';
+const word3 = 'pomidorai';
+const darzoviuAsorti2 = `'Darzoviu asorti' = ${word2} + ${word3}.`
+console.log(darzoviuAsorti2);
+
+console.log('-----');
+
+
+
+console.log('-----');
 
 const skaiciai1 = 4;
 let suma1 = 0;

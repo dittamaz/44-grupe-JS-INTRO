@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "arrow": "nodemon ./uzd/13-arrow.js",
     "multiply": "nodemon ./uzd/2-multiply.js",
     "empty": "nodemon ./uzd/1-empty.js",
     "uzduotys": "nodemon ./js/00-uzduotys.js",
