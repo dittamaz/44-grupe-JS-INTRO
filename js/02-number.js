@@ -245,3 +245,24 @@ console.log('----------');
 console.log(++n);
 console.log(n);
 
+
+
+const numbers1 = [10, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const odds1 = numbers1.filter( number => {
+    return number % 2 !== 0;
+});
+console.log(odds1);
+
+const numbers2 = [10, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const even2 = numbers2.filter( number => {
+    return number % 2 === 0;
+});
+console.log(even2);
+
+
+
+// const number3 = [2, 4, 0, 100, 4, 11, 2602, 36];
+
+
+// const number4 = [160, 3, 1719, 19, 11, 13, -21];
+
