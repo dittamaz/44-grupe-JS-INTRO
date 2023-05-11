@@ -126,3 +126,5 @@ Darzoves supjaustyti kubeliais. Imaisyti ${ingr3}.`
 
 
 console.log(salotos);
+
+

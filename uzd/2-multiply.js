@@ -14,7 +14,7 @@ function multiply(s, b) {
     if (typeof b !== 'number') {
         return 'ERROR: antras parametras ne skaicius';
     }
-    if (b === 'NaN') {
+    if ('' b === 'NaN') {
         return 'ERROR: antras parametras negali buti NaN';
     }
     if ( )

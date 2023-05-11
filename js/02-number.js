@@ -122,7 +122,7 @@ const liekana = skaicius % daliklis;
 console.log(liekana);
 
 console.log(17 / 3);
-console.log(17 % 3);
+console.log(17 % 4);
 
 let liek = 144;
 
@@ -244,3 +244,4 @@ console.log(n);
 console.log('----------');
 console.log(++n);
 console.log(n);
+
