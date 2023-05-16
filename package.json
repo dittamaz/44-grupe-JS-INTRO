@@ -10,6 +10,8 @@
     "uzd-2": "nodemon ./uzd/2-multiply.js",
     "uzd-1": "nodemon ./uzd/1-empty.js",
     "uzduotys": "nodemon ./js/00-uzduotys.js",
+    "recursion": "nodemon ./js/21-recursion.js",
+    "json": "nodemon ./js/20-json.js",
     "spreads": "nodemon ./js/19-spreads.js",
     "sort": "nodemon ./js/18-sort.js",
     "filter": "nodemon ./js/17-filter.js",
