@@ -1,6 +1,5 @@
 console.clear();
 
-console.clear();
 
 // FOR
 
